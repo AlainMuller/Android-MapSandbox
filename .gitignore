@@ -25,4 +25,6 @@ local.properties
 proguard/
 
 # API KEYS
+# add this file to gitignore after first commit + tell git to ignore changes on local file
+# > git update-index --assume-unchanged app/src/main/res/values/api_keys.xml
 app/src/main/res/values/api_keys.xml
